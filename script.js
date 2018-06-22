@@ -21,19 +21,19 @@ var updateClock = function() {
   if (time == partyTime) {
     image =
       "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/08/partyTime.jpg";
-    messageText = "IZ PARTEE TIME!!";
+    messageText = "PARTY TIME!";
   } else if (time == napTime) {
     image =
       "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/08/napTime.jpg";
-    messageText = "IZ NAP TIME...";
+    messageText = "NAP TIME FOR KYLO";
   } else if (time == lunchTime) {
     image =
       "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/08/lunchTime.jpg";
-    messageText = "IZ NOM NOM NOM TIME!!";
+    messageText = "LUNCH TIME!";
   } else if (time == wakeupTime) {
     image =
       "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/08/wakeUpTime.jpg";
-    messageText = "IZ TIME TO GETTUP.";
+    messageText = "TIME TO GET UP!";
   } else if (time < noon) {
     messageText = "Good morning!";
   } else if (time > evening) {
