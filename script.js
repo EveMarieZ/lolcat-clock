@@ -16,23 +16,23 @@ var updateClock = function() {
   var message = document.getElementById("timeEvent");
   var messageText;
   var image =
-    "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/08/normalTime.jpg";
+    "img/kylo-tantrum.gif";
 
   if (time == partyTime) {
     image =
-      "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/08/partyTime.jpg";
+      "img/partyTime.gif";
     messageText = "PARTY TIME!";
   } else if (time == napTime) {
     image =
-      "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/08/napTime.jpg";
-    messageText = "NAP TIME FOR KYLO";
+      "img/napTime.gif";
+    messageText = "NAP TIME!";
   } else if (time == lunchTime) {
     image =
-      "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/08/lunchTime.jpg";
+      "img/lunchTime.gif";
     messageText = "LUNCH TIME!";
   } else if (time == wakeupTime) {
     image =
-      "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/08/wakeUpTime.jpg";
+      "img/chewy-porg.gif";
     messageText = "TIME TO GET UP!";
   } else if (time < noon) {
     messageText = "Good morning!";
