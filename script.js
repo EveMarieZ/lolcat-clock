@@ -16,7 +16,7 @@ var updateClock = function() {
   var message = document.getElementById("timeEvent");
   var messageText;
   var image =
-    "img/kylo-tantrum.gif";
+    "img/normalTime.gif";
 
   if (time == partyTime) {
     image =
