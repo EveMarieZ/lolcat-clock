@@ -32,7 +32,7 @@ var updateClock = function() {
     messageText = "LUNCH TIME!";
   } else if (time == wakeupTime) {
     image =
-      "img/chewy-porg.gif";
+      "img/wakeUpTime.gif";
     messageText = "TIME TO GET UP!";
   } else if (time < noon) {
     messageText = "Good morning!";
