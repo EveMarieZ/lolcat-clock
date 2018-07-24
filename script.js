@@ -16,7 +16,7 @@ var updateClock = function() {
   var message = document.getElementById("timeEvent");
   var messageText;
   var image =
-    "img/normalTime.gif";
+    "img/r2d2-guitar.gif";
 
   if (time == partyTime) {
     image =
